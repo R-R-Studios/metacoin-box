@@ -40,6 +40,10 @@ module.exports = {
    */
 
   networks: {
+   host: "http://127.0.0.1:5555/?+=https://etherscan.io/tx/u",
+   port: 5555,
+   network_id: "1",
+  },
     // Useful for testing. The `development` name is special - truffle uses it by default
     // if it's defined here and no other network is specified at the command line.
     // You should run a client (like ganache, geth, or parity) in a separate terminal
