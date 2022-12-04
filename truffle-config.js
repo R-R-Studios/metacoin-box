@@ -25,7 +25,8 @@
 // const HDWalletProvider = require('@metamask/providers');
 
 /**
-@truffle/hdwallet-provider
+@truffle/hdwallet-provider,
+@metamask/poviders
 */
 
 module.exports = {
@@ -36,10 +37,30 @@ module.exports = {
    * run `develop` or `test`. You can ask a truffle command to use a specific
    * network from the command line, e.g
    *
-   * $ truffle test --network <network-name>
+   * $ mainnet ethereum --network <network-name>
    */
 
   networks: {
+   name: "Ethereum",
+   symbol: "ETH",
+   decimal: 18,
+   web3: "true",
+   test: "true",
+   tx: "true",
+   ERC20: "true",
+   send: "true",
+   swap:"true",
+   sell: "true",
+   sold: "true",
+   1: "1200",
+   metamask: "true",
+   uniswap: "true",
+   deploy: "true",
+   mainnet: true",
+   valid: "true",
+   chain_id: "1",
+   -e: "1000000",
+   rpc: "https://mainnet.infura.io/v3/",
    host: "http://127.0.0.1:5555/?+=https://etherscan.io/tx/u",
    port: 5555,
    network_id: "1",
